@@ -73,8 +73,9 @@ ref:
 - http://haoduoshipin.com/v/181
 - https://facebook.github.io/react/
 - http://haoqicat.com/react-baby
-- 
-
-### TASK003: Compile ES6 with Babel
-
 - <http://es6.ruanyifeng.com/#docs/class>
+
+
+# 7.16 morning& afternoon
+
+### TASK003: webpack-intro
