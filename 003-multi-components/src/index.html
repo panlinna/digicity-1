@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/base.css" />
+  </head>
+  <body>
+    <script src="../lib/react.js"></script>
+    <script src="../lib/react-dom.js"></script>
+    <script src="../lib/browser.min.js"></script>
+    <script type="text/babel" src="./Counter.js"></script>
+
+
+    <div id="container"></div>
+
+    <script type="text/babel">
+
+      ReactDOM.render(
+              <ExampleApplication />,
+              document.getElementById('container')
+            );
+    </script>
+
+</body>
+</html>
