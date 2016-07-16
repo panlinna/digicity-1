@@ -1,11 +1,7 @@
-### Multiple React Components
+# inline style
 
 
 
 ### ref
 
-```
-import React, { Component } from 'react';
-```
-
-why: http://haoduoshipin.com/v/179
+inline style: http://haoqicat.com/meteor-react-bird
