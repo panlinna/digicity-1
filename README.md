@@ -78,4 +78,6 @@ ref:
 
 # 7.16 morning& afternoon
 
-### TASK003: webpack-intro
+### TASK003: webpack-bundle
+
+bundle multiple js file into one
