@@ -1,10 +1,8 @@
-### Compile ES6 to ES5
+### Compile React Component
 
 
 
 ### install package
-
-
 
 
 ```
