@@ -1,14 +1,16 @@
-<h1>2016.7.2 morning</h1>
+# 2016.7.2 morning
 
 <a href="https://github.com/newming/digicity">咱们班所有人的作品</a>
 
-version control
+Git version control
 
 
-<h1>2016.7.3 morning&afternoon</h1>
+NO CODE TASK TODAY
 
 
-<pre><code>
+# 2016.7.3 morning&afternoon
+
+
   mkdir myproject
   cd myproject
   git init
@@ -17,34 +19,38 @@ version control
   git commit -m"commit msg"
   git remote add origin https://github.com/happypeter/myproject.git
   git push -u origin master
-</code></pre>
 
-<h3>tip:</h3>
-<p>
-  change remote address:
-  <pre><code>
-    atom .git/config
-  </code></pre>
-  delete all remote address settings, and run git remote add again
-</p>
+NO CODE TASK TODAY
+
+### tip
 
 
+change remote address:
 
-<h3>ref:</h3>
+```
+atom .git/config
+```
+
+delete all remote address settings, and run git remote add again
+
+
+### ref:
+
 <a href="http://haoqicat.com/ride-cli-monster">Ride Cli Monster</a>
 <br>
 <a href="http://haoqicat.com/gitbeijing">Git Beijing</a>
 
-<h3>Node project</h3>
-<p>initialize a node project</p>
-<pre><code>
-  npm init
-</code></pre>
+### Node project
 
-<h3>ref:</h3>
+initialize a node project
+
+```
+npm init
+```
+
+### ref:
+
 <a href="https://coding.net/help/doc/project/markdown.html">Markdown</a>
-
-
 
 
 # 7.9 morning
@@ -84,7 +90,3 @@ bundle multiple js file into one
 
 
 ### TASK004: webpack-babel
-
-```
-npm i -D babel-core babel-loader  babel-preset-es2015 babel-preset-stage-0 webpack
-```
