@@ -96,3 +96,8 @@ compile ES6 to ES5
 ### TASK005: webpack-react
 
 run react component
+
+
+### TASK006: multi-components
+
+use more than one components
