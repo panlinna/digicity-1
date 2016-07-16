@@ -7,6 +7,6 @@ class Animal {
     }
 }
 
-var animal=new Animal('dummy');
+var animal=new Animal('Peter');
 
 animal.sayName();
