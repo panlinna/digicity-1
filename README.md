@@ -81,3 +81,10 @@ ref:
 ### TASK003: webpack-bundle
 
 bundle multiple js file into one
+
+
+### TASK004: webpack-babel
+
+```
+npm i -D babel-core babel-loader  babel-preset-es2015 babel-preset-stage-0 webpack
+```
