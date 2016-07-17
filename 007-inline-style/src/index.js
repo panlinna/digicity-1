@@ -9,7 +9,7 @@ class App extends Component {
   getStyles() {
      return {
        root: {
-         backgroundColor: 'mistyrose',
+         backgroundColor: 'deeppink',
          height: '300px',
          padding: '20px'
        }
