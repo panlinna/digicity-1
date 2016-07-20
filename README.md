@@ -1,6 +1,6 @@
 # 2016.7.2 morning
 
-<a href="https://github.com/newming/digicity">咱们班所有人的作品</a>
+<a href="https://github.com/newming/digitalcity">咱们班所有人的作品</a>
 
 Git version control
 
