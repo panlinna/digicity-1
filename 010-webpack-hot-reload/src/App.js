@@ -4,8 +4,8 @@ class App extends React.Component {
   getStyles() {
      return {
        root: {
-         backgroundColor: 'deeppink',
-         padding: '20px',
+         backgroundColor: 'goldenrod',
+         padding: '40px',
          color: 'white',
          fontFamily: 'sans-serif',
          lineHeight: '1.9'
