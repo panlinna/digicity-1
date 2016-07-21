@@ -7,7 +7,14 @@ class App extends React.Component {
          backgroundColor: 'deeppink',
          padding: '20px',
          color: 'white',
-         fontFamily: 'sans-serif'
+         fontFamily: 'sans-serif',
+         lineHeight: '1.9'
+       },
+       inner: {
+         backgroundColor: 'teal',
+         textAlign: 'center',
+         padding: '10px',
+         borderRadius: '5px'
        }
      }
    }
@@ -17,6 +24,9 @@ class App extends React.Component {
     return(
       <div style={styles.root}>
         hello everyone
+        <div style={styles.inner}>
+          peter
+        </div>
       </div>
     )
   }
