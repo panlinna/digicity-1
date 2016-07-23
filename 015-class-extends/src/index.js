@@ -13,14 +13,15 @@ class Person {
   }
 }
 
-let peter = new Person('Peter', '70kg');
-//new  Class -> Object
 
-let lucy = new Person('Lucy', '50kg');
+class Man extends Person {
+  sayHooooo() {
+    console.log('Hooooooo');
+  }
+}
 
 
+let peter = new Man('Bruce', '70kg');
+
+peter.sayHooooo();
 peter.sayName();
-peter.sayWeight();
-
-lucy.sayName();
-lucy.sayWeight();
