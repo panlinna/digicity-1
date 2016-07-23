@@ -1,6 +1,8 @@
 import React from 'react';
 import AppBar from 'material-ui/AppBar';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import RaisedButton from 'material-ui/RaisedButton';
+
 
 
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -15,11 +17,16 @@ class App extends React.Component {
     return {muiTheme: getMuiTheme()};
   }
   render () {
+    const style = {
+      margin: 35,
+    };
     return(
-      <AppBar
-        title="Title"
-        iconClassNameRight="muidocs-icon-navigation-expand-more"
-      />
+      <div>
+        <AppBar title="Title"
+              iconClassNameRight="muidocs-icon-navigation-expand-more"
+              />
+        <RaisedButton secondary={true} label="peter" style={style} />
+      </div>
     )
   }
 }
