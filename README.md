@@ -115,3 +115,11 @@ use more than one components
 - http://ant.design/
 - http://www.material-ui.com/
 - [mui usage](http://haoqicat.com/webpack-react-mole)
+
+# 7.23 morning: es6 class
+
+
+# 7.23 afternoon: es6 module
+
+
+# 7.25 afternoon: How to Think in React ?
