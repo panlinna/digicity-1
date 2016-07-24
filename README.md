@@ -122,4 +122,6 @@ use more than one components
 # 7.23 afternoon: es6 module
 
 
-# 7.25 afternoon: How to Think in React ?
+# 7.24 afternoon: How to Think in React ?
+
+- http://blog.csdn.net/shilu89757/article/details/42418283
