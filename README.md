@@ -1,127 +1,19 @@
-# 2016.7.2 morning
-
-<a href="https://github.com/newming/digitalcity">咱们班所有人的作品</a>
-
-Git version control
+### Compile React Component
 
 
-NO CODE TASK TODAY
 
+### install package
 
-# 2016.7.3 morning&afternoon
-
-
-  mkdir myproject
-  cd myproject
-  git init
-  atom .
-  git add -A
-  git commit -m"commit msg"
-  git remote add origin https://github.com/happypeter/myproject.git
-  git push -u origin master
-
-NO CODE TASK TODAY
-
-### tip
-
-
-change remote address:
 
 ```
-atom .git/config
+npm i -D react babel-core babel-loader  babel-preset-es2015 babel-preset-react babel-preset-stage-0 webpack
 ```
 
-delete all remote address settings, and run git remote add again
-
-
-### ref:
-
-<a href="http://haoqicat.com/ride-cli-monster">Ride Cli Monster</a>
-<br>
-<a href="http://haoqicat.com/gitbeijing">Git Beijing</a>
-
-### Node project
-
-initialize a node project
-
-```
-npm init
-```
-
-### ref:
-
-<a href="https://coding.net/help/doc/project/markdown.html">Markdown</a>
-
-
-# 7.9 morning
-
-
-### file path
-
-[Ride Cli Monster](http://haoqicat.com/ride-cli-monster)
-
-
-### TASK001: React HelloWorld
-
-001-hello-world
-
-ref: https://react.rocks/
-
-
-# 7.10 morning
-
-### TASK002: React Counter
-
-002-react-counter
-
-ref:
-
-- http://haoduoshipin.com/v/181
-- https://facebook.github.io/react/
-- http://haoqicat.com/react-baby
-- <http://es6.ruanyifeng.com/#docs/class>
-
-
-# 7.16 morning& afternoon
-
-### TASK003: webpack-bundle
-
-bundle multiple js file into one
-
-
-### TASK004: webpack-babel
-
-compile ES6 to ES5
-
-### TASK005: webpack-react
-
-run react component
-
-
-### TASK006: multi-components
-
-use more than one components
-
-
-# 7.17 morning
 
 ### ref
 
-- https://github.com/ruanyf
-- [css is dying](http://haoduoshipin.com/v/185)
+```
+import React, { Component } from 'react';
+```
 
-# 7.21 morning & afternoon
-
-- http://ant.design/
-- http://www.material-ui.com/
-- [mui usage](http://haoqicat.com/webpack-react-mole)
-
-# 7.23 morning: es6 class
-
-
-# 7.23 afternoon: es6 module
-
-
-# 7.24 afternoon: How to Think in React ?
-
-- http://blog.csdn.net/shilu89757/article/details/42418283
+why: http://haoduoshipin.com/v/179
