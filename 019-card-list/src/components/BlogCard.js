@@ -29,7 +29,7 @@ class BlogCard extends Component {
         <div style={styles.index}>{this.props.index}</div>
         <div style={styles.content}>
           <h3>{this.props.title}</h3>
-          <p>{this.props.data}</p>
+          <p>{this.props.date}</p>
         </div>
       </div>
     )
@@ -39,13 +39,13 @@ class BlogCard extends Component {
 BlogCard.propTypes = {
   title: React.PropTypes.string.isRequired,
   index: React.PropTypes.number.isRequired,
-  data: React.PropTypes.string.isRequired,
+  date: React.PropTypes.string.isRequired,
 };
 
 BlogCard.defaultProps = {
   title: "请输入标题",
   index: 1,
-  data: '2016.7.19',
+  date: '2016.7.19',
 };
 
 export default BlogCard;

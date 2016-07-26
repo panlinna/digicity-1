@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import BlogList from './components/BlogList.js';
+import List from './components/List.js';
 
 
 class App extends Component {
   render(){
-
     return(
       <div>
-        <BlogList />
+        <List />
       </div>
     )
   }

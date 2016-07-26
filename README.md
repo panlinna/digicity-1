@@ -127,3 +127,7 @@ use more than one components
 - http://blog.csdn.net/shilu89757/article/details/42418283
 
 - https://github.com/happypeter/haoduoshipin
+
+# 7.26 morning: Lodash
+
+- https://lodash.com/

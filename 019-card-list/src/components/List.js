@@ -1,30 +1,30 @@
 import React, { Component } from 'react';
 
-import BlogCard from './BlogCard';
+import BlogCard from './BlogCard.js';
 
 let blogs = [
-  {title:'这是第一天',date:'2016.7.19'},
-  {title:'这是第二天',date:'2016.7.21'},
-  {title:'这是第三天',date:'2016.7.22'}
+  {title:'这是第一天', date:'2016.7.19'},
+  {title:'这是第二天', date:'2016.7.21'},
+  {title:'这是第三天', date:'2016.7.22'}
 ]
 
-class BlogList extends Component {
+class List extends Component {
   render(){
     // console.log(Cards.length);
-    var allCards = [];
+    var blogCards = [];
     for (var i = 0; i < blogs.length; i++) {
       let j=i+1;
-      allCards.push(
+      blogCards.push(
         <BlogCard title={blogs[i].title} date={blogs[i].date} index={j} key={i}/>
       )
     };
     // console.log(AllCards);
     return(
       <div>
-        {allCards}
+        {blogCards}
       </div>
     )
   }
 }
 
-export default BlogList;
+export default List;
