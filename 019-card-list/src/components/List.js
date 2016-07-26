@@ -1,23 +1,27 @@
 import React, { Component } from 'react';
+import map from 'lodash/fp/map';
+
 
 import BlogCard from './BlogCard.js';
 
 let blogs = [
-  {title:'这是第一天', date:'2016.7.19'},
-  {title:'这是第二天', date:'2016.7.21'},
-  {title:'这是第三天', date:'2016.7.22'}
+  {index: '1', title:'这是第一天', date:'2016.7.19'},
+  {index: '2', title:'这是第二天', date:'2016.7.21'},
+  {index: '3', title:'这是第三天', date:'2016.7.22'}
 ]
+
 
 class List extends Component {
   render(){
     // console.log(Cards.length);
     var blogCards = [];
-    for (var i = 0; i < blogs.length; i++) {
-      let j=i+1;
-      blogCards.push(
-        <BlogCard title={blogs[i].title} date={blogs[i].date} index={j} key={i}/>
-      )
-    };
+    map((b) =>  {
+                  blogCards.push(
+                  <BlogCard title={b.title} date={b.date} index={b.index} key={Math.random()}/>
+                  );
+                 },
+        blogs
+    );
     // console.log(AllCards);
     return(
       <div>
