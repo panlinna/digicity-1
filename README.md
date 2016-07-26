@@ -42,19 +42,12 @@
 # 7.16 afternoon: webpack-babel/react
 
 
-### TASK005: webpack-react
+- TASK: webpack-react
 
-run react component
-
-
-### TASK006: multi-components
-
-use more than one components
+- TASK006: multi-components
 
 
 # 7.17 morning
-
-### ref
 
 - https://github.com/ruanyf
 - [css is dying](http://haoduoshipin.com/v/185)
