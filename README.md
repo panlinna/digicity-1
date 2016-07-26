@@ -131,3 +131,7 @@ use more than one components
 # 7.26 morning: Lodash
 
 - https://lodash.com/
+
+# 7.26 afternoon: Material UI
+
+- http://www.material-ui.com/#/components/
