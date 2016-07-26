@@ -1,97 +1,46 @@
-# 2016.7.2 morning
+# 2016.7.2 morning: Git
 
 <a href="https://github.com/newming/digitalcity">咱们班所有人的作品</a>
 
-Git version control
+
+# 2016.7.3 morning: Git Creact Repo History
 
 
-NO CODE TASK TODAY
+
+- http://haoqicat.com/ride-cli-monster
+- http://haoqicat.com/gitbeijing
 
 
-# 2016.7.3 morning&afternoon
+# 2016.7.3 afternoon: Nodejs
 
 
-  mkdir myproject
-  cd myproject
-  git init
-  atom .
-  git add -A
-  git commit -m"commit msg"
-  git remote add origin https://github.com/happypeter/myproject.git
-  git push -u origin master
-
-NO CODE TASK TODAY
-
-### tip
+- https://coding.net/help/doc/project/markdown.html
 
 
-change remote address:
-
-```
-atom .git/config
-```
-
-delete all remote address settings, and run git remote add again
+# 2016.7.9 morning: React Hello
 
 
-### ref:
-
-<a href="http://haoqicat.com/ride-cli-monster">Ride Cli Monster</a>
-<br>
-<a href="http://haoqicat.com/gitbeijing">Git Beijing</a>
-
-### Node project
-
-initialize a node project
-
-```
-npm init
-```
-
-### ref:
-
-<a href="https://coding.net/help/doc/project/markdown.html">Markdown</a>
+- [Ride Cli Monster](http://haoqicat.com/ride-cli-monster)
+- https://react.rocks/
 
 
-# 7.9 morning
+# 7.10 morning: React State
 
-
-### file path
-
-[Ride Cli Monster](http://haoqicat.com/ride-cli-monster)
-
-
-### TASK001: React HelloWorld
-
-001-hello-world
-
-ref: https://react.rocks/
-
-
-# 7.10 morning
-
-### TASK002: React Counter
-
-002-react-counter
-
-ref:
-
+- TASK002: React Counter
 - http://haoduoshipin.com/v/181
 - https://facebook.github.io/react/
 - http://haoqicat.com/react-baby
 - <http://es6.ruanyifeng.com/#docs/class>
 
 
-# 7.16 morning& afternoon
-
-### TASK003: webpack-bundle
-
-bundle multiple js file into one
+# 7.16 morning: Webpack Bundle
 
 
-### TASK004: webpack-babel
+- TASK003: webpack-bundle
 
-compile ES6 to ES5
+
+# 7.16 afternoon: webpack-babel/react
+
 
 ### TASK005: webpack-react
 
