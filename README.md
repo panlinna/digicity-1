@@ -35,7 +35,6 @@
 
 # 7.16 morning: Webpack Bundle
 
-
 - TASK003: webpack-bundle
 
 
@@ -43,7 +42,6 @@
 
 
 - TASK: webpack-react
-
 - TASK006: multi-components
 
 
