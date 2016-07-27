@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
+
 import LifeCycle from './LifeCycle';
 
 class DestroyComponent extends Component {
   constructor(){
     super();
     this.state = {
-      value:1,
+      destroyValue:1,
       destroyed:false
     }
   }
   increase(){
     this.setState({
-      value: this.state.value + 1
+      destroyValue: this.state.destroyValue + 1
     });
   }
   destroy(){
@@ -30,7 +31,7 @@ class DestroyComponent extends Component {
           <button onClick={this.increase.bind(this)}>每次加1</button>
           <button onClick={this.destroy.bind(this)}>干掉这两个按钮</button>
         </p>
-        <LifeCycle value={this.state.value}/>
+        <LifeCycle value={this.state.destroyValue}/>
       </div>
     )
   }

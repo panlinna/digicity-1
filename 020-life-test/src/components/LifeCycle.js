@@ -9,38 +9,32 @@ class LifeCycle extends Component {
   }
   componentWillReceiveProps(nextProps){
     console.log('componentWillReceiveProps',nextProps);
-    // this.setState({
-    //     value: nextProps.value
-    // });
   }
-
   shouldComponentUpdate(nextProps,nextState){
     console.log('shouldComponentUpdate',nextProps,nextState);
-    if (nextProps.value<5) {
-      return true;
-    }else {
+    if (nextState.num>5) {
       return false;
+    }else {
+      return true;
     }
   }
-
   componentWillUpdate(nextProps,nextState){
     console.log('componentWillUpdate',nextProps,nextState);
   }
-
-  componentWillMount(){
-    console.log('componentWillMount');
-  }
-
   render() {
     console.log('render');
-    return <span>props value:{this.props.value}，state数字为：{this.state.num}</span>
+    return (
+      <div>
+        <p>state数字为：{this.state.num}</p>
+        <p>props值为：{this.props.value}</p>
+      </div>
+    )
   }
-
   componentDidMount() {
     console.log('componentDidMount');
     // console.log(this.props.value);
     //这里注释掉了，打开后会console 出（shouldComponentUpdate,componentWillUpdate）
-    // this.interval = setInterval( this.tick.bind(this), 1000 );
+    // this.interval = setInterval( this.tick.bind(this), 5000 );
   }
   tick(){
     this.setState({
@@ -50,12 +44,8 @@ class LifeCycle extends Component {
   componentDidUpdate(prevProps,prevState) {
     console.log('componentDidUpdate',prevProps,prevState);
   }
-
-  componentWillUnmount(prevProps,prevState) {
-    console.log('componentWillUnmount');
-  }
 }
 LifeCycle.defaultProps={
-  value:'开始渲染'
+  value:0
 }
 export default LifeCycle;
