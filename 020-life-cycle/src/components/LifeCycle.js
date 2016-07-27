@@ -44,6 +44,9 @@ class LifeCycle extends Component {
   componentDidUpdate(prevProps,prevState) {
     console.log('componentDidUpdate',prevProps,prevState);
   }
+  componentWillUnmount(){
+    console.log('componentWillUnmount');
+  }
 }
 LifeCycle.defaultProps={
   value:0
