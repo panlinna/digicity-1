@@ -19,6 +19,8 @@ class App extends React.Component {
   }
   _handleSubmit(e) {
     e.preventDefault();
+    const account = this.refs.account.getValue();
+    console.log(account);
   }
   render () {
     let styles = {
