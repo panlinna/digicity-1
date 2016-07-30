@@ -95,3 +95,6 @@
 
 - form
 - json
+- HTTP request + HTTP response
+- request = verb + url + data
+            get  + baidu.com   
