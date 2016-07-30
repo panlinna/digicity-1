@@ -87,5 +87,6 @@
 
 - api.github.com
 - API/Ajax
+- [Ajax Intro](http://haoduoshipin.com/v/197)
 - http://haoqicat.com/meteor-express-ajax
 - http://haoqicat.com/webpack-react-mole
