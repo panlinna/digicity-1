@@ -1,111 +1,51 @@
-# 2016.7.2 morning
+# 2016.7.2 morning: Git
 
 <a href="https://github.com/newming/digitalcity">咱们班所有人的作品</a>
 
-Git version control
+
+# 2016.7.3 morning: Git Creact Repo History
 
 
-NO CODE TASK TODAY
+
+- http://haoqicat.com/ride-cli-monster
+- http://haoqicat.com/gitbeijing
 
 
-# 2016.7.3 morning&afternoon
+# 2016.7.3 afternoon: Nodejs
 
 
-  mkdir myproject
-  cd myproject
-  git init
-  atom .
-  git add -A
-  git commit -m"commit msg"
-  git remote add origin https://github.com/happypeter/myproject.git
-  git push -u origin master
-
-NO CODE TASK TODAY
-
-### tip
+- https://coding.net/help/doc/project/markdown.html
 
 
-change remote address:
-
-```
-atom .git/config
-```
-
-delete all remote address settings, and run git remote add again
+# 2016.7.9 morning: React Hello
 
 
-### ref:
-
-<a href="http://haoqicat.com/ride-cli-monster">Ride Cli Monster</a>
-<br>
-<a href="http://haoqicat.com/gitbeijing">Git Beijing</a>
-
-### Node project
-
-initialize a node project
-
-```
-npm init
-```
-
-### ref:
-
-<a href="https://coding.net/help/doc/project/markdown.html">Markdown</a>
+- [Ride Cli Monster](http://haoqicat.com/ride-cli-monster)
+- https://react.rocks/
 
 
-# 7.9 morning
+# 7.10 morning: React State
 
-
-### file path
-
-[Ride Cli Monster](http://haoqicat.com/ride-cli-monster)
-
-
-### TASK001: React HelloWorld
-
-001-hello-world
-
-ref: https://react.rocks/
-
-
-# 7.10 morning
-
-### TASK002: React Counter
-
-002-react-counter
-
-ref:
-
+- TASK002: React Counter
 - http://haoduoshipin.com/v/181
 - https://facebook.github.io/react/
 - http://haoqicat.com/react-baby
 - <http://es6.ruanyifeng.com/#docs/class>
 
 
-# 7.16 morning& afternoon
+# 7.16 morning: Webpack Bundle
 
-### TASK003: webpack-bundle
-
-bundle multiple js file into one
+- TASK003: webpack-bundle
 
 
-### TASK004: webpack-babel
-
-compile ES6 to ES5
-
-### TASK005: webpack-react
-
-run react component
+# 7.16 afternoon: webpack-babel/react
 
 
-### TASK006: multi-components
-
-use more than one components
+- TASK: webpack-react
+- TASK006: multi-components
 
 
 # 7.17 morning
-
-### ref
 
 - https://github.com/ruanyf
 - [css is dying](http://haoduoshipin.com/v/185)
@@ -125,3 +65,36 @@ use more than one components
 # 7.24 afternoon: How to Think in React ?
 
 - http://blog.csdn.net/shilu89757/article/details/42418283
+
+- https://github.com/happypeter/haoduoshipin
+
+# 7.26 morning: Lodash
+
+- https://lodash.com/
+
+# 7.26 afternoon: Material UI
+
+- http://www.material-ui.com/#/components/
+
+
+# 7.28 morning: React Router
+
+- https://github.com/reactjs/react-router
+- [react router CN](https://react-guide.github.io/react-router-cn/)
+
+
+# 7.30 morning: API
+
+- api.github.com
+- API/Ajax
+- [Ajax Intro](http://haoduoshipin.com/v/197)
+- http://haoqicat.com/meteor-express-ajax
+- http://haoqicat.com/webpack-react-mole
+
+# 7.30 afternoon: Axios
+
+- form
+- json
+- HTTP request + HTTP response
+- request = verb + url + data
+            get  + baidu.com   
